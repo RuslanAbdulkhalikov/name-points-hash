@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Zen+Dots&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+
+/* Header  */ 
+
+
+.main {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.main1 {
+  text-align: center;
+}
+
+.main-text {
+  padding-left: 25px;
+  padding-bottom: 50px;
+  font-weight: 700;
+}
+
+.header {
+  padding-top: 25px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  background-color: #090b0a;
+  height: 25px;
+  width: 300px;
+  border-radius: 5px;
+  color: #fff;
+  padding-left: 5px;
+  border: none;
+}
+
+.main-button {
+  font-size: 13px;
+  font-weight: 500;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-2 {
+  background: rgb(34, 15, 65);
+  background: linear-gradient(0deg, rgb(31, 28, 35) 0%, rgb(67, 59, 75) 100%);
+  border-radius: 10px;
+  border: none;
+  
+}
+
+.scores {
+  margin-top: 20px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+
+/* Footer  */ 
+
+
+footer {
+  width: 100%;
+  position: fixed; 
+  left: 0; 
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  bottom: 0; 
+  padding-top: 100px;
+  padding-bottom: 100px; 
+  background: rgb(21, 20, 20);
+  color: rgb(255, 255, 255);
+}
+
+.scale-row {
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.md5-text, .sha-text {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
