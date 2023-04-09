@@ -1,3 +1,3 @@
-NPH - сайт для определения числа (до 30) по ФИО с использованием хэш-функций MD5 и SHA-1.
+NPH is a website for determining the number (up to 30) by name using MD5 and SHA-1 hash functions.
 
-Необходимо вписать фамилию, имя и отчество, в соответствующее поле, через пробелы. 
+It is necessary to enter the surname, first name and patronymic, in the appropriate field, separated by spaces.
